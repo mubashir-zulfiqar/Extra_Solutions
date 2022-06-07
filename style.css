@@ -1,0 +1,115 @@
+*::selection{
+    background: #495469;
+    color: #A0B3CD;
+}
+
+.nav-bar {
+    padding: 0 60px !important;
+    background: transparent;
+}
+
+.nav-bar a, .nav-item a{
+    color: white;
+}
+
+.nav-item {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.nav-item :hover{
+    border-bottom: 2px solid black;
+    color: black !important;
+}
+
+.main-logo img {
+    display: inline-block !important;
+    margin-right:10px !important;
+}
+
+.main-logo h3 {
+    display: inline-block !important;
+    margin-left: -10px !important;
+    font-size: 18px;
+}
+
+.nav-bar-items {
+    justify-content: flex-end;
+}
+
+/* .navbar-collapse {
+    position: relative;
+    margin: 1em;
+    overflow: hidden;
+}
+
+.navbar-collapse ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -1px;
+}
+
+.navbar-collapse li {
+    flex-grow: 1;
+    flex-basis: auto;
+    padding: 0 1em;
+    text-align: center;
+    border-left: 1px solid #ccc;
+} */
+
+.hero-sec {
+    margin-top: -70px;
+    background-image: url("http://www.telnetters.net/images/slider/web3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* filter: contrast(0.5);
+    -webkit-filter: contrast(0.6); */
+    padding: 150px 160px 0 160px;
+    width: 100%;
+    height: 100.2vh;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+.hero-sec h3 {
+    font-size: 34px;
+}
+
+.hero-sec h1 {
+    font-size: 144px;
+}
+
+.hero-sec hr {
+    color: whitesmoke;
+    height: 2px;
+}
+
+.socials {
+    color: black;
+    margin: -210px 0 0 -35px;
+}
+
+.socials ul {
+    border-radius: 0 10px 0 0 !important;
+    list-style-type: none;
+    background-color: white;
+    margin-right: 1435px;
+}
+
+.socials ul li {
+    position: relative;
+    padding: 20px 0 20px 30px;
+    transition: all 1s;
+}
+
+.socials ul li:hover {
+    color: white;
+    background-color: black;
+}
+
+.socials ul li i {
+    font-size: 28px;
+}
